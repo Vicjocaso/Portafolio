@@ -1,0 +1,19 @@
+#image {
+  display: flex;
+}
+
+.container {
+  display: inline;
+  display: flex;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#back {
+  background-image: url(https://wallpapercave.com/wp/wp2701352.jpg);
+}
