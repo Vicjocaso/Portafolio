@@ -1,7 +1,3 @@
-#image {
-  display: flex;
-}
-
 .container {
   display: inline;
   display: flex;
@@ -16,4 +12,5 @@
 
 #back {
   background-image: url(https://wallpapercave.com/wp/wp2701352.jpg);
+  height: 829px;
 }

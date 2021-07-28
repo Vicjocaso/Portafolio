@@ -7,15 +7,17 @@ import "./HomePage.css";
 function Home() {
   return (
     <div id="back" class="d-flex justify-content-center p-5">
-      <Image
-        id="image"
-        width="400px"
-        height="400px"
-        thumbnail
-        roundedCircle
-        src={Logo}
-        rounded
-      />
+      <div>
+        <Image
+          id="image"
+          width="200px"
+          height="100px"
+          thumbnail
+          roundedCircle
+          src={Logo}
+          rounded
+        />
+      </div>
       <div>
         <h2>
           <Badge variant="secondary">Hi,</Badge>
@@ -27,6 +29,7 @@ function Home() {
           <Badge variant="secondary">Web Developer</Badge>
         </h2>
       </div>
+
       <footer></footer>
     </div>
   );
