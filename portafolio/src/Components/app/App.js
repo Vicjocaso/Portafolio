@@ -1,10 +1,6 @@
 import "./App.css";
 import Header from "../header/header";
-import About from "../about/about";
-import Home from "../Home/HomePage";
-import Skill from "../Skill/Skills";
-import Contact from "../Contact/Contact";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Router from "../Router/Router";
 
 function App() {
   return (
@@ -12,22 +8,7 @@ function App() {
       <header>
         <Header />
       </header>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/About">
-            <About />
-          </Route>
-          <Route path="/Skill">
-            <Skill />
-          </Route>
-          <Route path="/Contact">
-            <Contact />
-          </Route>
-        </Switch>
-      </BrowserRouter>
+      <Router />
     </div>
   );
 }
